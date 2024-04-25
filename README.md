@@ -18,7 +18,7 @@ Create a conda env using the following command:
 
 ```bash
 conda env create -f environment.yml
-conda activate SemAug-xformers
+conda activate SemAug
 ```
 
 ### Dataset
@@ -68,7 +68,7 @@ Below, you can see the results for ```real-guidance``` (no conditioning on the d
 
 ![figure](https://github.com/perladoubinsky/SemAug/blob/main/images/comparison.png)
 
-### Trainexi Counting Networks
+### Train Counting Networks
 
 Code coming soon
 
