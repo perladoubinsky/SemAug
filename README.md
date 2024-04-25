@@ -32,7 +32,7 @@ https://drive.google.com/drive/folders/1oK2mHCkf3VFtia4cMUNnn7TAo8sPxyne?usp=sha
 
 ### Generative model with Density Control
 
-You can also find the pre-trained generative model (Stable Diffusion v1.5 with ControlNet finetuning) in the previous link and put in the folder ```ControlNet/pretrained```.
+You can also find the pre-trained generative model conditionned on density maps (Stable Diffusion v1.5 with ControlNet finetuning) in the previous link and put in the folder ```ControlNet/pretrained```.
 
 ### Generate augmentations 
 
@@ -53,10 +53,10 @@ python generate_augmentations.py \
 
 N.B: We use a low guidance scale as we found that using a similar guidance scale as for the unconditional Stable Diffusion model leads to images with very saturated colors.
 
-You can also generate an augmentation from a given real image model (```--aug controlnet-img2img```) for this you need to specify the level of noise to add to the start image ```--t0 (1.0 full noise to 0.0 no noise)```.
+You can also generate an augmentation from a given real image (```--aug controlnet-img2img```) for this you need to specify the level of noise to add to the start image ```--t0 (1.0 full noise to 0.0 no noise)```.
 
 
-Common hyper-parameters are given in the following bash scripts: ```run_generate_aug_controlnet.sh```, ```run_generate_aug_controlnet_img2img.sh```, ```run_generate_aug_controlnet_real_guidance.sh```.
+For the different augmentation types, common hyper-parameters are given in the following bash scripts: ```run_generate_aug_controlnet.sh```, ```run_generate_aug_controlnet_img2img.sh```, ```run_generate_aug_controlnet_real_guidance.sh```.
 
 ### Notebooks
 
@@ -70,7 +70,7 @@ Below, you can see the results for ```real-guidance``` (no conditioning on the d
 
 ### Train Counting Networks
 
-Code coming soon
+Coming soon
 
 
 ### Acknowledgements
