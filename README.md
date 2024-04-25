@@ -8,7 +8,7 @@
 >[[arXiv]](https://arxiv.org/abs/2311.16122)
 >[[pdf]](https://openaccess.thecvf.com/content/WACV2024/papers/Doubinsky_Semantic_Generative_Augmentations_for_Few-Shot_Counting_WACV_2024_paper.pdf)
 >[[2<sup>nd</sup> on Few-shot Counting benchmark]](https://paperswithcode.com/sota/object-counting-on-fsc147)
->![figure](images/div_aug_fsc.jpeg)
+>![figure](https://github.com/perladoubinsky/SemAug/blob/main/images/div_aug_fsc.jpeg)
 
 ## Use SemAug
 
@@ -66,7 +66,7 @@ We provide two notebooks:
 
 Below, you can see the results for ```real-guidance``` (no conditioning on the density map) vs. our approach ```control-net``` not starting from the real image (2<sup>nd</sup> line) or ```control-net-img2img``` starting from the real image (3<sup>rd</sup> line).
 
-![figure](images/comparison.png)
+![figure](https://github.com/perladoubinsky/SemAug/blob/main/images/comparison.png)
 
 ### Trainexi Counting Networks
 
