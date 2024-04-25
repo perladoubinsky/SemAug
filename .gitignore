@@ -1,0 +1,6 @@
+*.npy
+*.ckpt
+aug/
+captions/
+__pycache__/
+.ipynb_checkpoints/
