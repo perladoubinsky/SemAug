@@ -1,5 +1,7 @@
 # [WACV 2024] SemAug: Semantic Generative Augmentations for Few-shot Counting
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-generative-augmentations-for-few/object-counting-on-fsc147)](https://paperswithcode.com/sota/object-counting-on-fsc147?p=semantic-generative-augmentations-for-few)
+
 > Perla Doubinsky, Nicolas Audebert, Michel Crucianu, Hervé Le Borgne,
 > Conservatoire National des Arts et Métiers (Cnam) & CEA List, France.
 >
@@ -7,7 +9,6 @@
 >
 >[[arXiv]](https://arxiv.org/abs/2311.16122)
 >[[pdf]](https://openaccess.thecvf.com/content/WACV2024/papers/Doubinsky_Semantic_Generative_Augmentations_for_Few-Shot_Counting_WACV_2024_paper.pdf)
->[[2<sup>nd</sup> on Few-shot Counting benchmark]](https://paperswithcode.com/sota/object-counting-on-fsc147)
 >![figure](https://github.com/perladoubinsky/SemAug/blob/main/images/div_aug_fsc.jpeg)
 
 ## Use SemAug
